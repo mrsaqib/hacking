@@ -80,21 +80,21 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92Sqib ur rehman
-\033[1;96mInstagram \033[1;93m: \033[1;92Pakhtoon
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Rohim khan
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/saqib/Khan
-\033[1;91m======================================="""
+Sqib ur rehman
+\Saqib ur rehman
+\Rohim khan
+\saqib/Khan
+\======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "SAQIB"
+CorrectUsername = "saqib"
 CorrectPassword = "SAQIB"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
+    username = raw_input saqib\x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
+    	password = raw_input saqib/☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -113,15 +113,15 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
-		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
+		print 42*"saqib"
+		print(''saqib/☆] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
+		id = raw_input('\saqib+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input(''saqib+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
+			print"\n\saqib[!] \x1b[1;91mThere is no internet connection"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -188,10 +188,10 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print 42*"\033[1;96m="
-	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
-	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
-	print 42*"\033[1;96m="
+	print 42*"saqib
+	print "\saqib\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
+	print "\saqib\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
+	print 42*"\saqib="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
 	pilih()
@@ -209,7 +209,7 @@ def pilih():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\033[1;96m[!] \x1b[1;91mFill in correctly"
+		print "\saqib!] \x1b[1;91mFill in correctly"
 		pilih()
 
 
@@ -225,7 +225,7 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print 42*"\033[1;96m="
+	print 42*"\saqib="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Crack From Friend List"
 	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m Crack From Any Public ID"
 	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Crack From File"
